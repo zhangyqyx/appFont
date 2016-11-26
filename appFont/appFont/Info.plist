@@ -20,6 +20,25 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>msyh.ttf</string>
+		<string>msyhbd.ttf</string>
+		<string>华康少女体.ttf</string>
+		<string>华康雅宋体.TTf</string>
+		<string>文鼎中特广告体.TTF</string>
+		<string>文鼎霹雳体.TTF</string>
+		<string>时尚中黑简体.ttf</string>
+		<string>晴圆.ttc</string>
+		<string>段宁毛笔行书.ttf</string>
+		<string>汉真广标.ttf</string>
+		<string>汉鼎简行书.TTF</string>
+		<string>浪漫雅圆.ttf</string>
+		<string>百度综艺简体.ttf</string>
+		<string>胡晓波美心常规体.ttf</string>
+		<string>苏新诗卵石体.ttf</string>
+		<string>蒙纳简超刚黑.ttf</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

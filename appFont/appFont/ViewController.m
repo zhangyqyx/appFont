@@ -19,8 +19,7 @@
 
 - (NSArray *)fontLists {
     if (!_fontLists) {
-        NSString *path  = [[NSBundle mainBundle]pathForResource:@"FontList.plist" ofType:nil];
-        _fontLists = [NSArray arrayWithContentsOfFile:path];
+        _fontLists = [UIFont familyNames];
     }
    return  _fontLists;
 }
@@ -34,22 +33,32 @@
     tableView.rowHeight = 70;
     tableView.sectionHeaderHeight = 40;
     [self.view addSubview:tableView];
+    for (NSString *fontFamilyName in [UIFont familyNames]) {
+        NSLog(@"familyNames = %@" , fontFamilyName);
+        for (NSString *fontName in [UIFont fontNamesForFamilyName:fontFamilyName]) {
+            NSLog(@"  %@", fontName);
+        }
+        NSLog(@"---------");
+    }
+   
+    
+    
+    
 }
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
     return self.fontLists.count;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    NSDictionary *dic = self.fontLists[section];
-    NSArray *fonts = dic[@"fonts"];
-    return fonts.count;
+    NSString *fontFamily = self.fontLists[section];
+    return [UIFont fontNamesForFamilyName:fontFamily].count;
 }
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell"];
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"cell"];
     }
-    NSDictionary *dic = self.fontLists[indexPath.section];
-    NSArray *fonts = dic[@"fonts"];
+    NSString *fontFamily = self.fontLists[indexPath.section];
+    NSArray *fonts = [UIFont fontNamesForFamilyName:fontFamily];
     cell.textLabel.text = @"abc&123?ABC?字体!";
     cell.textLabel.font = [UIFont fontWithName:fonts[indexPath.row] size:17];
     cell.detailTextLabel.text = fonts[indexPath.row];
@@ -58,14 +67,14 @@
     return cell;
 }
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-    NSDictionary *dic = self.fontLists[section];
-    return dic[@"fontFamily"];
+      NSString *fontFamily = self.fontLists[section];
+    return fontFamily;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     ZYFontViewController *fontVc = [[ZYFontViewController alloc] init];
-    NSDictionary *dic = self.fontLists[indexPath.section];
-    NSArray *fonts = dic[@"fonts"];
+    NSString *fontFamily = self.fontLists[indexPath.section];
+    NSArray *fonts = [UIFont fontNamesForFamilyName:fontFamily];
     fontVc.fontStr = fonts[indexPath.row];
     [self.navigationController pushViewController:fontVc animated:YES];
 }

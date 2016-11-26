@@ -13,7 +13,22 @@
 		3C14C3511DE82A1900E9E3A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C34F1DE82A1900E9E3A2 /* Main.storyboard */; };
 		3C14C3531DE82A1900E9E3A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */; };
 		3C14C3561DE82A1900E9E3A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C3541DE82A1900E9E3A2 /* LaunchScreen.storyboard */; };
-		3C14C35E1DE82C1E00E9E3A2 /* FontList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C14C35D1DE82C1E00E9E3A2 /* FontList.plist */; };
+		3C7ADCB01DE9177100756344 /* msyh.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADC9F1DE9177100756344 /* msyh.ttf */; };
+		3C7ADCB11DE9177100756344 /* msyhbd.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA01DE9177100756344 /* msyhbd.ttf */; };
+		3C7ADCB21DE9177100756344 /* 华康少女体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA11DE9177100756344 /* 华康少女体.ttf */; };
+		3C7ADCB31DE9177100756344 /* 华康雅宋体.TTf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */; };
+		3C7ADCB41DE9177100756344 /* 文鼎中特广告体.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */; };
+		3C7ADCB51DE9177100756344 /* 文鼎霹雳体.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */; };
+		3C7ADCB71DE9177100756344 /* 时尚中黑简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */; };
+		3C7ADCB81DE9177100756344 /* 晴圆.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA71DE9177100756344 /* 晴圆.ttc */; };
+		3C7ADCB91DE9177100756344 /* 段宁毛笔行书.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */; };
+		3C7ADCBA1DE9177100756344 /* 汉真广标.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCA91DE9177100756344 /* 汉真广标.ttf */; };
+		3C7ADCBB1DE9177100756344 /* 汉鼎简行书.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */; };
+		3C7ADCBC1DE9177100756344 /* 浪漫雅圆.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */; };
+		3C7ADCBD1DE9177100756344 /* 百度综艺简体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */; };
+		3C7ADCBE1DE9177100756344 /* 胡晓波美心常规体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */; };
+		3C7ADCBF1DE9177100756344 /* 苏新诗卵石体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */; };
+		3C7ADCC01DE9177100756344 /* 蒙纳简超刚黑.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */; };
 		F532EDE91DE8503F003DDF2E /* ZYFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +43,22 @@
 		3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C14C3551DE82A1900E9E3A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3C14C3571DE82A1A00E9E3A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C14C35D1DE82C1E00E9E3A2 /* FontList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FontList.plist; sourceTree = "<group>"; };
+		3C7ADC9F1DE9177100756344 /* msyh.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyh.ttf; sourceTree = "<group>"; };
+		3C7ADCA01DE9177100756344 /* msyhbd.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = msyhbd.ttf; sourceTree = "<group>"; };
+		3C7ADCA11DE9177100756344 /* 华康少女体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康少女体.ttf"; sourceTree = "<group>"; };
+		3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "华康雅宋体.TTf"; sourceTree = "<group>"; };
+		3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文鼎中特广告体.TTF"; sourceTree = "<group>"; };
+		3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "文鼎霹雳体.TTF"; sourceTree = "<group>"; };
+		3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "时尚中黑简体.ttf"; sourceTree = "<group>"; };
+		3C7ADCA71DE9177100756344 /* 晴圆.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "晴圆.ttc"; sourceTree = "<group>"; };
+		3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "段宁毛笔行书.ttf"; sourceTree = "<group>"; };
+		3C7ADCA91DE9177100756344 /* 汉真广标.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉真广标.ttf"; sourceTree = "<group>"; };
+		3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "汉鼎简行书.TTF"; sourceTree = "<group>"; };
+		3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "浪漫雅圆.ttf"; sourceTree = "<group>"; };
+		3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "百度综艺简体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "胡晓波美心常规体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "苏新诗卵石体.ttf"; sourceTree = "<group>"; };
+		3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "蒙纳简超刚黑.ttf"; sourceTree = "<group>"; };
 		F532EDE71DE8503F003DDF2E /* ZYFontViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYFontViewController.h; sourceTree = "<group>"; };
 		F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYFontViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,13 +93,13 @@
 		3C14C3451DE82A1900E9E3A2 /* appFont */ = {
 			isa = PBXGroup;
 			children = (
+				3C7ADC9E1DE9177100756344 /* 美工常用设计字体 */,
 				3C14C3491DE82A1900E9E3A2 /* AppDelegate.h */,
 				3C14C34A1DE82A1900E9E3A2 /* AppDelegate.m */,
 				3C14C34C1DE82A1900E9E3A2 /* ViewController.h */,
 				3C14C34D1DE82A1900E9E3A2 /* ViewController.m */,
 				F532EDE71DE8503F003DDF2E /* ZYFontViewController.h */,
 				F532EDE81DE8503F003DDF2E /* ZYFontViewController.m */,
-				3C14C35D1DE82C1E00E9E3A2 /* FontList.plist */,
 				3C14C34F1DE82A1900E9E3A2 /* Main.storyboard */,
 				3C14C3521DE82A1900E9E3A2 /* Assets.xcassets */,
 				3C14C3541DE82A1900E9E3A2 /* LaunchScreen.storyboard */,
@@ -85,6 +115,29 @@
 				3C14C3471DE82A1900E9E3A2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7ADC9E1DE9177100756344 /* 美工常用设计字体 */ = {
+			isa = PBXGroup;
+			children = (
+				3C7ADC9F1DE9177100756344 /* msyh.ttf */,
+				3C7ADCA01DE9177100756344 /* msyhbd.ttf */,
+				3C7ADCA11DE9177100756344 /* 华康少女体.ttf */,
+				3C7ADCA21DE9177100756344 /* 华康雅宋体.TTf */,
+				3C7ADCA31DE9177100756344 /* 文鼎中特广告体.TTF */,
+				3C7ADCA41DE9177100756344 /* 文鼎霹雳体.TTF */,
+				3C7ADCA61DE9177100756344 /* 时尚中黑简体.ttf */,
+				3C7ADCA71DE9177100756344 /* 晴圆.ttc */,
+				3C7ADCA81DE9177100756344 /* 段宁毛笔行书.ttf */,
+				3C7ADCA91DE9177100756344 /* 汉真广标.ttf */,
+				3C7ADCAA1DE9177100756344 /* 汉鼎简行书.TTF */,
+				3C7ADCAB1DE9177100756344 /* 浪漫雅圆.ttf */,
+				3C7ADCAC1DE9177100756344 /* 百度综艺简体.ttf */,
+				3C7ADCAD1DE9177100756344 /* 胡晓波美心常规体.ttf */,
+				3C7ADCAE1DE9177100756344 /* 苏新诗卵石体.ttf */,
+				3C7ADCAF1DE9177100756344 /* 蒙纳简超刚黑.ttf */,
+			);
+			path = "美工常用设计字体";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,10 +199,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C7ADCB81DE9177100756344 /* 晴圆.ttc in Resources */,
+				3C7ADCB41DE9177100756344 /* 文鼎中特广告体.TTF in Resources */,
+				3C7ADCB51DE9177100756344 /* 文鼎霹雳体.TTF in Resources */,
+				3C7ADCBA1DE9177100756344 /* 汉真广标.ttf in Resources */,
+				3C7ADCB91DE9177100756344 /* 段宁毛笔行书.ttf in Resources */,
+				3C7ADCB21DE9177100756344 /* 华康少女体.ttf in Resources */,
+				3C7ADCBF1DE9177100756344 /* 苏新诗卵石体.ttf in Resources */,
+				3C7ADCB01DE9177100756344 /* msyh.ttf in Resources */,
+				3C7ADCBE1DE9177100756344 /* 胡晓波美心常规体.ttf in Resources */,
+				3C7ADCC01DE9177100756344 /* 蒙纳简超刚黑.ttf in Resources */,
 				3C14C3561DE82A1900E9E3A2 /* LaunchScreen.storyboard in Resources */,
+				3C7ADCBD1DE9177100756344 /* 百度综艺简体.ttf in Resources */,
 				3C14C3531DE82A1900E9E3A2 /* Assets.xcassets in Resources */,
+				3C7ADCB11DE9177100756344 /* msyhbd.ttf in Resources */,
+				3C7ADCB31DE9177100756344 /* 华康雅宋体.TTf in Resources */,
+				3C7ADCBC1DE9177100756344 /* 浪漫雅圆.ttf in Resources */,
 				3C14C3511DE82A1900E9E3A2 /* Main.storyboard in Resources */,
-				3C14C35E1DE82C1E00E9E3A2 /* FontList.plist in Resources */,
+				3C7ADCBB1DE9177100756344 /* 汉鼎简行书.TTF in Resources */,
+				3C7ADCB71DE9177100756344 /* 时尚中黑简体.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
