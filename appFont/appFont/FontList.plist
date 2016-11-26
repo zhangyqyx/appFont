@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>AmericanTypewriter</string>
+			<string>AmericanTypewriter-Bold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>American Typewriter</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>AppleGothic</string>
+		</array>
+		<key>fontFamily</key>
+		<string>AppleGothic</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>ArialMT</string>
+			<string>Arial-BoldMT</string>
+			<string>Arial-BoldItalicMT</string>
+			<string>Arial-ItalicMT</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Arial</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>ArialRoundedMTBold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Arial Rounded MT Bold</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>ArialUnicodeMS</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Arial Unicode MS</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>Courier</string>
+			<string>Courier-BoldOblique</string>
+			<string>Courier-Oblique</string>
+			<string>Courier-Bold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Courier</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>CourierNewPS-BoldMT</string>
+			<string>CourierNewPS-ItalicMT</string>
+			<string>CourierNewPS-BoldItalicMT</string>
+			<string>CourierNewPSMT</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Courier New</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>DBLCDTempBlack</string>
+		</array>
+		<key>fontFamily</key>
+		<string>DB LCD Temp</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>Georgia-Bold</string>
+			<string>Georgia</string>
+			<string>Georgia-BoldItalic</string>
+			<string>Georgia-Italic</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Georgia</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>Helvetica-Oblique</string>
+			<string>Helvetica-BoldOblique</string>
+			<string>Helvetica</string>
+			<string>Helvetica-Bold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Helvetica</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>HelveticaNeue</string>
+			<string>HelveticaNeue-Bold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Helvetica Neue</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>HiraKakuProN-W3</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Hiragino Kaku Gothic ** W3</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>HiraKakuProN-W6</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Hiragino Kaku Gothic ** W6</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>MarkerFelt-Thin</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Marker Felt</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>STHeitiJ-Medium</string>
+			<string>STHeitiJ-Light</string>
+		</array>
+		<key>fontFamily</key>
+		<string>STHeiti J</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>STHeitiK-Medium</string>
+			<string>STHeitiK-Light</string>
+		</array>
+		<key>fontFamily</key>
+		<string>STHeiti K</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>STHeitiTC-Light</string>
+			<string>STHeitiTC-Medium</string>
+		</array>
+		<key>fontFamily</key>
+		<string>STHeiti TC</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>TimesNewRomanPSMT</string>
+			<string>TimesNewRomanPS-BoldMT</string>
+			<string>TimesNewRomanPS-BoldItalicMT</string>
+			<string>TimesNewRomanPS-ItalicMT</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Times New Roman</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>TrebuchetMS-Italic</string>
+			<string>TrebuchetMS</string>
+			<string>Trebuchet-BoldItalic</string>
+			<string>TrebuchetMS-Bold</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Trebuchet MS</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>Verdana-Bold</string>
+			<string>Verdana-BoldItalic</string>
+			<string>Verdana</string>
+			<string>Verdana-Italic</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Verdana</string>
+	</dict>
+	<dict>
+		<key>fonts</key>
+		<array>
+			<string>Zapfino</string>
+		</array>
+		<key>fontFamily</key>
+		<string>Zapfino</string>
+	</dict>
+</array>
+</plist>
